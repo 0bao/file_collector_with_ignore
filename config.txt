@@ -1,4 +1,7 @@
-# Specify the extensions to collect (comma-separated)
-EXTENSIONS: .png, .jpg, .jpeg
+# 要收集的文件类型扩展名（例如图片文件类型）
+# File types to collect (e.g., image file types)
+EXTENSIONS:.png,.jpg,.jpeg
 
-CUSTOM_IGNORE_EXT: .pnpignore
+# 自定义忽略文件的扩展名
+# Custom ignore file extensions
+CUSTOM_IGNORE_EXT:.pnpignore
