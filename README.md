@@ -1,4 +1,5 @@
-# README
+# 使用 .gitignore 一样收集文件 / File Collector With Ignore
+
 
 ## 简介 / Introduction
 
