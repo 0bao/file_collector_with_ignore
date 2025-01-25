@@ -5,7 +5,6 @@
 `collect_files` 是一个 Python 工具方法。输入一个路径后，方法会递归遍历该路径及其子目录，收集所有符合条件的文件并返回它们的绝对路径列表。同时支持通过类似 `.gitignore` 的方式，使用自定义忽略文件动态排除某些文件或目录。  
 `collect_files` is a Python utility function. Given a directory path, it recursively traverses the directory and its subdirectories, collecting all matching files and returning their absolute paths. It also supports dynamically excluding files or directories using custom ignore files, similar to `.gitignore`.
 
----
 
 ## 方法 / Method
 
@@ -27,7 +26,7 @@
     - 通过忽略文件中的规则过滤文件。  
       Filters files based on rules specified in custom ignore files.
 
----
+
 
 ## 配置文件 / Configuration File
 
@@ -45,7 +44,7 @@
    CUSTOM_IGNORE_EXT:.pnpignore  
    ```  
 
----
+
 
 ## 自定义忽略文件规则 / Custom Ignore File Rules
 
@@ -91,7 +90,7 @@ def should_ignore(file_path, ignore_patterns):
     return False  
 ```
 
----
+
 
 ## 示例 / Example
 
@@ -141,7 +140,7 @@ The output may be:
 ['example_directory/file1.png', 'example_directory/file2.jpg']  
 ```  
 
----
+
 
 ## License
 
