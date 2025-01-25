@@ -1,0 +1,4 @@
+# Specify the extensions to collect (comma-separated)
+EXTENSIONS: .png, .jpg, .jpeg
+
+CUSTOM_IGNORE_EXT: .pnpignore
