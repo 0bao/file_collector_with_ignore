@@ -143,7 +143,7 @@ The output may be:
 
 
 
-## License
+## 许可 / License
 
 此代码基于 MIT 协议发布，您可以自由使用、修改和分发。  
 This code is released under the MIT license, and you are free to use, modify, and distribute it.
